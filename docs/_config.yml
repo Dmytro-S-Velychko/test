@@ -1,5 +1,5 @@
 :include
-  assets
-  enums
-  interfaces
-  modules
+  - assets
+  - enums
+  - interfaces
+  - modules
