@@ -1,5 +1,1 @@
-:include
-  - assets
-  - enums
-  - interfaces
-  - modules
+include:[assets, enums, interfaces, modules]
