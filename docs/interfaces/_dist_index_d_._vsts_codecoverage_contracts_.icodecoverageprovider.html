@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>vss-web-extension-sdk | vss-web-extension-sdk</title>
+	<title>ICodeCoverageProvider | vss-web-extension-sdk</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -879,7 +879,7 @@ img { max-width: 100%; }
 		<div class="container">
 			<div class="table-wrap">
 				<div class="table-cell">
-					<strong><a href="index.html">vss-web-extension-sdk</a></strong>
+					<strong><a href="../index.html">vss-web-extension-sdk</a></strong>
 				</div>
 				<div class="table-cell" id="tsd-widgets">
 					<div id="tsd-filter">
@@ -907,22 +907,109 @@ img { max-width: 100%; }
 </header>
 <nav class="tsd-navigation secondary">
 	<ul>
+		<li class=" tsd-kind-enum tsd-parent-kind-module">
+			<a href="../enums/_dist_index_d_._vsts_codecoverage_contracts_.coveragetype.html" class="tsd-kind-icon">Coverage<wbr>Type</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-module">
+			<a href="_dist_index_d_._vsts_codecoverage_contracts_.icodecoverage.html" class="tsd-kind-icon">ICode<wbr>Coverage</a>
+		</li>
+		<li class="current tsd-kind-interface tsd-parent-kind-module">
+			<a href="_dist_index_d_._vsts_codecoverage_contracts_.icodecoverageprovider.html" class="tsd-kind-icon">ICode<wbr>Coverage<wbr>Provider</a>
+			<ul>
+				<li class=" tsd-kind-method tsd-parent-kind-interface">
+					<a href="_dist_index_d_._vsts_codecoverage_contracts_.icodecoverageprovider.html#providecoverage" class="tsd-kind-icon">provide<wbr>Coverage</a>
+				</li>
+			</ul>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-module">
+			<a href="_dist_index_d_._vsts_codecoverage_contracts_.icoverageblock.html" class="tsd-kind-icon">ICoverage<wbr>Block</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-module">
+			<a href="_dist_index_d_._vsts_codecoverage_contracts_.icoveragesummary.html" class="tsd-kind-icon">ICoverage<wbr>Summary</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-module">
+			<a href="_dist_index_d_._vsts_codecoverage_contracts_.icoveredfile.html" class="tsd-kind-icon">ICovered<wbr>File</a>
+		</li>
+		<li class=" tsd-kind-interface tsd-parent-kind-module">
+			<a href="_dist_index_d_._vsts_codecoverage_contracts_.ifilecoverage.html" class="tsd-kind-icon">IFile<wbr>Coverage</a>
+		</li>
 	</ul>
 </nav>
 <div class="container container-main">
 	<div class="content-wrap">
+		<section class="tsd-panel tsd-comment">
+			<div class="tsd-comment tsd-typography">
+				<div class="lead">
+					<p>Represents coverage provider. Proodes covearge info for build. This interface
+						used to extend coverage service for VstsCodeCoverage. See {@link
+					../../extend-vsts-code-coverage/} for more details.</p>
+				</div>
+			</div>
+		</section>
+		<section class="tsd-panel tsd-hierarchy">
+			<h3>Hierarchy</h3>
+			<ul class="tsd-hierarchy">
+				<li>
+					<span class="target">ICodeCoverageProvider</span>
+				</li>
+			</ul>
+		</section>
 		<section class="tsd-panel-group tsd-index-group">
 			<h2>Index</h2>
 			<section class="tsd-panel tsd-index-panel">
 				<div class="tsd-index-content">
 					<section class="tsd-index-section ">
-						<h3>External modules</h3>
+						<h3>Methods</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-external-module"><a href="modules/_dist_index_d_.html" class="tsd-kind-icon">"dist/index.d"</a></li>
-							<li class="tsd-kind-external-module"><a href="modules/_node_modules_vss_web_extension_sdk_typings_index_d_.html" class="tsd-kind-icon">"node_<wbr>modules/vss-<wbr>web-<wbr>extension-<wbr>sdk/typings/index.d"</a></li>
+							<li class="tsd-kind-method tsd-parent-kind-interface"><a href="_dist_index_d_._vsts_codecoverage_contracts_.icodecoverageprovider.html#providecoverage" class="tsd-kind-icon">provide<wbr>Coverage</a></li>
 						</ul>
 					</section>
 				</div>
+			</section>
+		</section>
+		<section class="tsd-panel-group tsd-member-group ">
+			<h2>Methods</h2>
+			<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface">
+				<a name="providecoverage" class="tsd-anchor"></a>
+				<h3>provide<wbr>Coverage</h3>
+				<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface">
+					<li class="tsd-signature tsd-kind-icon">provide<wbr>Coverage<span class="tsd-signature-symbol">(</span>build<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Build</span>, artifacts<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">BuildArtifact</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="_dist_index_d_._vsts_codecoverage_contracts_.icodecoverage.html" class="tsd-signature-type">ICodeCoverage</a><span class="tsd-signature-symbol">&gt;</span></li>
+				</ul>
+				<ul class="tsd-descriptions">
+					<li class="tsd-description">
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in dist/index.d.ts:115</li>
+							</ul>
+						</aside>
+						<div class="tsd-comment tsd-typography">
+							<div class="lead">
+								<p>Returns civerage information for provided build. If no known information
+									found promise should be resolved with {@code null}. Eny exceptions thrown
+								by this method will be suppressed</p>
+							</div>
+						</div>
+						<h4 class="tsd-parameters-title">Parameters</h4>
+						<ul class="tsd-parameters">
+							<li>
+								<h5>build: <span class="tsd-signature-type">Build</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>Build to serach coverage info for</p>
+								</div>
+							</li>
+							<li>
+								<h5>artifacts: <span class="tsd-signature-type">BuildArtifact</span><span class="tsd-signature-symbol">[]</span></h5>
+								<div class="tsd-comment tsd-typography">
+									<p>list of buiuld artifacts. Method may analyze artifacts
+									to find and extract coverage info.</p>
+								</div>
+							</li>
+						</ul>
+						<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="_dist_index_d_._vsts_codecoverage_contracts_.icodecoverage.html" class="tsd-signature-type">ICodeCoverage</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						<p>Coverage information for build. If provider found no info it
+						should resolve promise with {@code null}</p>
+					</li>
+				</ul>
 			</section>
 		</section>
 		<footer class="with-border-bottom">
